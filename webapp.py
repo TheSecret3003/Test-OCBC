@@ -96,8 +96,14 @@ def main():
             st.write(answer)
             
             st.subheader("📖 Sources:")
-            for i, src in enumerate(sources):
-                st.write(f"**Source {i+1} (from {src['source']}):** {src['text'][:300]}...")  # Show a preview
+            if sources:  # Ensure sources exist
+                for i, src in enumerate(sources):
+                    source_text = src.get("text", "No text available")[:300]  # Preview
+                    source_name = src.get("source", "Unknown Source")  # Handle missing source
+                    
+                    st.write(f"**Source {i+1} (from {source_name}):** {source_text}...")
+            else:
+                st.write("No sources found for this query.")
     
      # Bad User Prediction Page
     if( selected == 'Bad User Prediction'):
