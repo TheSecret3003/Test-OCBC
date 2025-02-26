@@ -111,9 +111,7 @@ User Classification model was developed through the following steps:
 #### RAG Architecture
 The following diagram explains the information flow when a user asks a question:
 
-User Query  --->  Text Retrieval  --->  Context + Query  --->  LLM Response
-                        |                     |                      |
-                    ChromaDB              LangChain               Streamlit UI
+<img src="Example Q&A/graph.png" alt="Alt Text" width="1000">
 
 **Step-by-Step Process:**
 
