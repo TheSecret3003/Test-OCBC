@@ -163,11 +163,6 @@ The following diagram explains the information flow when a user asks a question:
 <img src="Example Q&A/example_user.png" alt="Alt Text" width="1000">
 <img src="Example Q&A/example_chatbot.png" alt="Alt Text" width="1000">
 
-## Deployment
-
-The web app is hosted on Streamlit Cloud. You can access it using the following link:
-
-[User Classification and Financial Chatbot WebApp](https://user-classification-chatbot-financial.streamlit.app/)
 
 ## Contributing
 
