@@ -162,8 +162,8 @@ User Query  --->  Text Retrieval  --->  Context + Query  --->  LLM Response
 ✅ Fine-tuning a model specifically on financial statements for better accuracy.
 
 ## Example Input Outputs
-<img src="Example Q&A/example_user.png" alt="Alt Text" width="300">
-<img src="Example Q&A/example_chatbot.png" alt="Alt Text" width="300">
+<img src="Example Q&A/example_user.png" alt="Alt Text" width="1000">
+<img src="Example Q&A/example_chatbot.png" alt="Alt Text" width="1000">
 
 ## Deployment
 
