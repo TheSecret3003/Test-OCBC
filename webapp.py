@@ -1,7 +1,6 @@
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="langchain")
 warnings.simplefilter(action='ignore', category=FutureWarning)
-import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 import json

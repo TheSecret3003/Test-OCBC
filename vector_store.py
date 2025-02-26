@@ -44,4 +44,4 @@ for doc in documents:
         embeddings=embeddings  # Store precomputed embeddings
     )
 
-print("✅ Data successfully added to ChromaDB!")
+print("Data successfully added to ChromaDB!")
