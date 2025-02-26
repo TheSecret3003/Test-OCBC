@@ -161,6 +161,10 @@ User Query  --->  Text Retrieval  --->  Context + Query  --->  LLM Response
 ✅ Better filtering techniques (e.g., keyword + embedding hybrid search).
 ✅ Fine-tuning a model specifically on financial statements for better accuracy.
 
+## Example Input Outputs
+![Alt Text](Example Q&A/example_user.png)
+![Alt Text](Example Q&A/example_chatbot.png)
+
 ## Deployment
 
 The web app is hosted on Streamlit Cloud. You can access it using the following link:
