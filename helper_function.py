@@ -2,7 +2,6 @@ import chromadb
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from langchain_community.llms import HuggingFacePipeline
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_community.vectorstores import Chroma
 
 # Create a text-generation pipeline
 model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
