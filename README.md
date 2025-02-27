@@ -16,9 +16,8 @@ This repository contains a web app developed using Streamlit and hosted on Strea
 7. [Models Used](#models-used)
 8. [Model Evaluation](#model-evaluation)
 9. [Conclusion](#conclusion)
-10. [Deployment](#deployment)
-11. [Contributing](#contributing)
-12. [Contact](#contact)
+10. [Contributing](#contributing)
+11. [Contact](#contact)
 
 ## Overview
 
