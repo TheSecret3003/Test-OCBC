@@ -32,7 +32,7 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot for finan
 
 2. ChromaDB for document retrieval
 
-3. Lightweight open-source LLM (e.g., Gemma-2B or TinyLlama-1.1B) for response generation
+3. Lightweight open-source LLM (TinyLlama-1.1B) for response generation
 
 4. LangChain for seamless integration of retrieval and generation
 
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 To start the Streamlit web app, run the following command in your terminal:
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run webapp.py
 ```
 
 This will launch the web app in your default web browser. You can then select the desired AI projects from the sidebar and input the required features to get a prediction.
