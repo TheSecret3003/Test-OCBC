@@ -1,3 +1,12 @@
+import sys
+
+# Force Python to use pysqlite3 instead of system sqlite3
+try:
+    import pysqlite3
+    sys.modules["sqlite3"] = pysqlite3
+except ImportError:
+    print("pysqlite3 not found. Ensure it's installed in requirements.txt")
+
 import chromadb
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from langchain_community.llms import HuggingFacePipeline
