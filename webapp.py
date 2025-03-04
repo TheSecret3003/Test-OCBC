@@ -1,7 +1,3 @@
-import pysqlite3
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="langchain")
 warnings.simplefilter(action='ignore', category=FutureWarning)
