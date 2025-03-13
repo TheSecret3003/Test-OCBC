@@ -1,3 +1,6 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 import sys
 import os
@@ -26,7 +29,7 @@ splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 # Initialize ChromaDB client and collection
-chroma_client = chromadb.PersistentClient(path="chroma_db")
+chroma_client = chromadb.PersistentClient(path="chroma_db", chroma_db_impl="duckdb")
 collection = chroma_client.get_or_create_collection(name="financial_statements")
 
 # Process and add text chunks to ChromaDB
