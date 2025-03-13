@@ -16,8 +16,9 @@ This repository contains a web app developed using Streamlit and hosted on Strea
 7. [Models Used](#models-used)
 8. [Model Evaluation](#model-evaluation)
 9. [Conclusion](#conclusion)
-10. [Contributing](#contributing)
-11. [Contact](#contact)
+10. [Deployment](#Deployment)
+11. [Contributing](#contributing)
+12. [Contact](#contact)
 
 ## Overview
 
@@ -162,6 +163,9 @@ The following diagram explains the information flow when a user asks a question:
 <img src="Example Q&A/example_user.png" alt="Alt Text" width="1000">
 <img src="Example Q&A/example_chatbot.png" alt="Alt Text" width="1000">
 
+## Deployment
+The web app is hosted on Hugging Face Spaces. You can access it using the following link:
+https://huggingface.co/spaces/EkaSurya1998/financial_chatbot
 
 ## Contributing
 
